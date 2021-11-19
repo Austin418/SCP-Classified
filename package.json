@@ -7,10 +7,14 @@
     "express-async-errors": "^3.1.1",
     "express-rate-limit": "^5.5.1",
     "gitignore": "^0.7.0",
+    "h": "^1.0.0",
+    "helmet": "^4.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.13",
     "routes": "^2.1.0",
     "swagger-ui-express": "^4.1.6",
+    "xss-clean": "^0.1.1",
+    "yaml": "^1.10.2",
     "yamljs": "^0.3.0"
   }
 }
