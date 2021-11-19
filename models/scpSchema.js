@@ -16,16 +16,21 @@ const ScpSchema = new mongoose.Schema({
     maxlength: 10000,
   },
   ObjectClass: {
-      type: String,
-      required: [true, "Please enter the object class"],
-      maxlength: 1000,
-      enum: ['Safe', 'Euclid', 'Keter', 'Thaumiel', 'Neutralized', 'Apollyon', 'Archon' ],
+    type: String,
+    required: [true, "Please enter the object class"],
+    maxlength: 1000,
+    enum: [
+      "Safe",
+      "Euclid",
+      "Keter",
+      "Thaumiel",
+      "Neutralized",
+      "Apollyon",
+      "Archon",
+    ],
   },
   Description: {
-      type:String,
-      required: [true, "Please enter the anomalies description"]
-
-  }
-
-  
+    type: String,
+    required: [true, "Please enter the description of the anomaly"],
+  },
 });
